@@ -15,7 +15,7 @@ if  file:
     #PIL convert
     img=PILImage.create(file)
     #model
-    modelpath=r'C:\Users\ASUS\Desktop\Projects\myvenv\Include\transport_model.pkl'
+    modelpath=r'C:\Users\ASUS\Desktop\github_upload\transportclassification\transport_model.pkl'
     model = load_learner(modelpath)
 
 
