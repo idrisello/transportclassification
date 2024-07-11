@@ -15,7 +15,8 @@ if  file:
     #PIL convert
     img=PILImage.create(file)
     #model
-    model = load_learner('C:\Users\ASUS\Desktop\github_upload\transportclassification/model.pkl')
+    model = load_learner(r'C:\Users\ASUS\Desktop\github_upload\transportclassification\model.pkl')
+
 
     #prediction
     pred,pred_id,probs=model.predict(img)
